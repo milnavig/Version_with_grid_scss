@@ -1,0 +1,63 @@
+$color_light: #1049A9;
+$color_dark: #052C6E;
+$color_orange: #ffa500;
+$font: Arial, "Times New Roman", sans-serif;
+
+* {
+    font-family: $font;
+    /* font-size: 18px; */
+}
+
+/* Настраиваю сетку */
+
+@import 'grid';
+
+/* Панель с социальными кнопками */
+
+@import 'social_panel';
+
+/* Лого и название сайта */
+
+@import 'logo';
+
+/* Делаю главное меню */
+
+@import 'main_menu';
+
+/* Фон приветствия */
+
+@import 'greeting_poster';
+
+/* Декорации и название разделов */
+
+@import 'headers_decor';
+
+/* Плитки */
+
+@import 'tiles';
+
+/* Делаю слайдер */
+
+@import 'slider';
+
+/* Подписка */
+
+@import 'subscribe';
+
+/* Отзывы */
+    
+@import 'user_feedback';
+
+/* Последние новости */
+    
+@import 'latest_news';
+
+/* Футтер */
+
+@import 'footer';
+
+@import 'copyrights';
+
+/* Контакты */
+
+@import 'contacts';
